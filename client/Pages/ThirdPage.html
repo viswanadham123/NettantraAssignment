@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ThirdPage.css">
+    <title>Documents Submission</title>
+</head>
+<body>
+    <div>
+
+        <div class="firstpage-div">
+            <form id="form">
+                <h1 class="document-head">Documents</h1>
+                <div> <label for="photo">Recent passport size photograph (image size less than 4MB)<span>*</span></label>
+                    <input type="file" id="photo" accept="image/*" required>
+                </div>
+
+
+                <label for="hsc">HSC mark sheet (image, PDF or docs size less than 4MB)<span>*</span></label>
+                <input type="file" id="hsc" accept=".pdf,.doc,.docx,image/*" required>
+
+                <label for="ssc">SSC mark sheet (image, PDF or docs size less than 4MB)<span>*</span></label>
+                <input type="file" id="ssc" accept=".pdf,.doc,.docx,image/*" required>
+
+                <label for="semesters">All semesters mark sheet in a single PDF or docs (file size less than 10MB)<span>*</span></label>
+                <input type="file" id="semesters" accept=".pdf,.doc,.docx" required>
+                <div class="button-div">
+                    <button type="submit">Submit</button>
+                </div>
+                <div id="success-message"></div>
+
+            </form>
+        </div>
+
+<script src="./ThirdPage.js"></script>
+    </div>
+</body>
+</html>

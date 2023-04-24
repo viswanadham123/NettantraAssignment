@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Candara";
+    color: #043445;
+    font-weight: 600;
+}
+
+body {
+    margin: 0px;
+}
+
+.firstpage-div {
+    background-color: #d7f2fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.containers1 {
+    width: 90vw;
+    margin-bottom: 15px;
+}
+
+span {
+    color: red;
+}
+
+.name-div {
+    display: flex;
+    flex-direction: row;
+    height: 4vh;
+}
+
+.name-div1 {
+    flex-grow: 1;
+    margin-right: 10px;
+    border: 2px solid #d0e8ac;
+    flex-shrink: 0;
+    width: 40vw
+}
+
+.name-div2 {
+    flex-grow: 1;
+    border: 2px solid #d0e8ac;
+    flex-shrink: 0;
+    width: 40vw;
+}
+
+.whole-div {
+    width: 90vw;
+    border: 2px solid #d0e8ac;
+}
+
+.address-div {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 15vw;
+    height: 4vh;
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    background-color: #aef7a6;
+    border-radius: 10PX;
+    text-align: center;
+
+}
+
+.radio-button {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:767px) {
+    .firstpage-div {
+        height: 100vh;
+    }
+}

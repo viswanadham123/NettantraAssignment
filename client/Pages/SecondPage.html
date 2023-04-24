@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Details</title>
+    <link rel="stylesheet" href="./SecondPage.css">
+</head>
+
+<body>
+    <div>
+        <form id="formValidation">
+            <div class="firstpage-div">
+
+                <h1>Education Details</h1>
+
+                <div class="containers1">
+                    <label>HSC Institution name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" class="whole-div" id="hscInstituteName" placeholder="Hsc Institute Name" required />
+                    </div>
+                </div>
+
+
+                <div class="containers1">
+                    <label>HSC Board<span>*</span></label>
+                    <div class="name-div">
+                        <select id="hscBoard" name="hsc_board" class="whole-div" required>
+                            <option value="cbse">CBSE</option>
+                            <option value="icse">ICSE</option>
+                            <option value="state_board">State Board</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="containers1">
+                    <label>HSC Score in percentage:<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" class="whole-div" id="hscScore" placeholder="HSC Score in percentage" required />
+                    </div>
+                </div>
+                <div class="containers1">
+                    <label>SSC Institution name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" id="sscInst" name="ssc_inst" class="whole-div" placeholder="SSC Institution name" required />
+                    </div>
+
+                </div>
+
+
+
+                <div class="containers1">
+                    <label>SSC Board<span>*</span></label>
+                    <div class="name-div">
+                        <select id="sscBoard" name="ssc_board" class="whole-div" required>
+                            <option value="cbse">CBSE</option>
+                            <option value="icse">ICSE</option>
+                            <option value="state_board">State Board</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="containers1">
+                    <label>SSC Score in percentage<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" id="sscScore" name="ssc_score" class="whole-div" placeholder="SSC Score in percentage" required>
+                    </div>
+                </div>
+
+
+
+                <div class="containers1">
+                    <label>Currently pursuing<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" id="currentPursuit" name="current_pursuit" class="whole-div" placeholder="Currently pursuing" required>
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>Current educational institution name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" id="currentInst" name="current_inst" class="whole-div" placeholder="Current educational institution name" required>
+                    </div>
+                </div>
+
+                <div class="containers1">
+                    <label>Overall percentage<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" id="overallScore" name="overall_score" class="whole-div" placeholder="Overall percentage" required>
+                    </div>
+                </div>
+
+                <div class="containers1">
+                    <label>Current backlogs if any</label>
+                    <div class="name-div">
+                        <input type="text" id="backlogs" name="backlogs" class="whole-div" placeholder="Current backlogs" required>
+                    </div>
+                </div>
+
+
+
+                <button type="submit" value="submit" id="nextButton">NEXT</button>
+
+            </div>
+        </form>
+        <script src="./SecondPage.js"></script>
+    </div>
+
+</body>
+
+</html>

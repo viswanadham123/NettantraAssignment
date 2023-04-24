@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div>
+        <form id="formValidation">
+            <div class="firstpage-div">
+
+                <h1>Registration form</h1>
+
+
+                <div class="containers1">
+                    <label for="studentFirstName">Name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" placeholder="First" class="name-div1" id="studentFirstName" required />
+                        <input type="text" placeholder="Last" class="name-div2" id="studentLastName" required />
+                    </div>
+                </div>
+
+
+                <div class="containers1">
+                    <label>Date Of Birth<span>*</span></label>
+                    <div class="name-div">
+                        <input type="date" placeholder="First" class="whole-div" id="dateOfBirth" required />
+                    </div>
+                </div>
+
+                <div class="containers1">
+                    <label>Email<span>*</span></label>
+                    <div class="name-div">
+                        <input type="email" class="whole-div" id="emailId" required />
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>Father Name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" placeholder="First" class="name-div1" id="fatherFistname" required />
+                        <input type="text" placeholder="Last" class="name-div2" id="fatherLastname" required />
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>Mother Name<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" placeholder="First" class="name-div1" id="motherFistname" required />
+                        <input type="text" placeholder="Last" class="name-div2" id="motherLastname" required />
+                    </div>
+                </div>
+                <div class="containers1">
+                    <label>Gender<span>*</span></label>
+                    <div class="radio-button">
+                        <div><input type="radio" name="Gender" value="male" id="male" required/>M</div>
+                        <div> <input type="radio" name="Gender" value="female" id="female" required/>F</div>
+
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>Nationalty<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" class="whole-div" id="nationality" required />
+                    </div>
+
+                </div>
+
+                <div class="containers1">
+                    <label>Home Address<span>*</span></label>
+                    <div class="name-div address-div">
+                        <input type="text" placeholder="Street Addresss" class="whole-div" id="streetName" required/>
+                    </div>
+                    <div class="name-div">
+                        <input type="text" placeholder="City" class="name-div1" id="cityName" required />
+                        <input type="text" placeholder="Country" class="name-div2" id="countryName" required />
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>TelePhone-Home</label>
+                    <div class="name-div">
+                        <input type="text" class="whole-div" id="telePhoneNumber" />
+                    </div>
+
+                </div>
+                <div class="containers1">
+                    <label>TelePhone-Mobile<span>*</span></label>
+                    <div class="name-div">
+                        <input type="text" class="whole-div" id="mobileNumber" required />
+                    </div>
+
+                </div>
+                <button type="submit" value="submit" id="nextButton">NEXT</button>
+
+            </div>
+        </form>
+    
+    <script src="./index.js"></script>
+</div>
+</body>
+
+</html>
